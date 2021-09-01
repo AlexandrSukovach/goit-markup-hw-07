@@ -197,7 +197,7 @@ footer {
   background-color: var(--section-background);
 }
 
-.fotor-content {
+.footer__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -209,7 +209,7 @@ footer {
   padding-bottom: 60px;
 }
 
-.logo-footer {
+.footer__logo {
   color: var(--logo-color);
   font-family: Raleway, sans-serif;
   font-size: 26px;
@@ -218,15 +218,15 @@ footer {
   letter-spacing: 0.03em;
 }
 
-.logo-footer span {
+.footer__logo span {
   color: var(--accent-color);
 }
 
-.address {
+.footer__address {
   margin-right: 70px;
 }
 
-.address-footer {
+.footer__location {
   color: var(--accent-color);
   font-size: 14px;
   font-style: normal;
@@ -234,33 +234,39 @@ footer {
   margin-top: 20px;
 }
 
-.address-map {
+.footer__map {
   color: var(--accent-color);
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.address-map:hover,
-.address-map:focus {
+.footer__map:hover {
   color: var(--logo-color);
 }
 
-.contact-footer li:not(:last-child) {
+.footer__map:focus {
+  color: var(--logo-color);
+}
+
+.footer__contact:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.contact-footer .click {
+.footer__contact--click {
   color: var(--accent-footer-color);
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-footer .click:hover,
-.contact-footer .click:focus {
+.footer__contact--click:hover {
   color: var(--logo-color);
 }
 
-.social h3 {
+.footer__contact--click:focus {
+  color: var(--logo-color);
+}
+
+.footer__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -270,7 +276,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.social-site {
+.footer__site {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -279,7 +285,7 @@ footer {
           justify-content: center;
 }
 
-.site-media a {
+.footer__media {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -299,21 +305,36 @@ footer {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-site li:not(:last-child) {
-  margin-right: 10px;
-}
-
-.site-media a:hover,
-.site-media a:focus {
+.footer__media:hover {
   background-color: var(--logo-background-color);
 }
 
-.socmedia {
+.footer__media:focus {
+  background-color: var(--logo-background-color);
+}
+
+.footer__icon:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer__socmedia {
   fill: currentColor;
 }
 
-.mail-mailing {
+.footer__mail {
   margin-left: auto;
+}
+
+.footer__mailing {
+  display: block;
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .but-mailing {
@@ -339,29 +360,17 @@ footer {
   margin-left: 12px;
 }
 
-.but-mailing svg {
+.footer__thumbnail {
   margin-left: 10px;
 }
 
-.but-mailing-mail {
+.footer__button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.mailing-list {
-  display: block;
-  color: var(--accent-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  cursor: pointer;
-}
-
-.but-mailing-mail input {
+.footer__input {
   width: 358px;
   height: 50px;
   background-color: var(--section-background);
@@ -373,25 +382,25 @@ footer {
   cursor: pointer;
 }
 
-.but-mailing-mail input:focus {
+.footer__input:focus {
   outline: none;
   border-color: rgba(255, 255, 255, 0.3);
   color: var(--accent-footer-color);
 }
 
-.but-mailing-mail input::-webkit-input-placeholder {
+.footer__input::-webkit-input-placeholder {
   color: var(--accent-footer-color);
 }
 
-.but-mailing-mail input:-ms-input-placeholder {
+.footer__input:-ms-input-placeholder {
   color: var(--accent-footer-color);
 }
 
-.but-mailing-mail input::-ms-input-placeholder {
+.footer__input::-ms-input-placeholder {
   color: var(--accent-footer-color);
 }
 
-.but-mailing-mail input::placeholder {
+.footer__input::placeholder {
   color: var(--accent-footer-color);
 }
 
