@@ -1,0 +1,27 @@
+/*------------ work--------------- */
+.work-title {
+   margin-bottom: 50px;
+}
+
+.work-images {
+   display: flex;
+}
+
+.work-images li {
+   width: 370px;
+   position: relative;
+}
+
+.work-images li:not(:last-child) {
+   margin-right: 30px;
+}
+
+.work-title,
+.our-team-title,
+.reg-custom-title {
+   color: var(--title-text-color);
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 1.17;
+   text-align: center;
+}

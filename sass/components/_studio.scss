@@ -1,0 +1,27 @@
+/*------------HEADER----------- */
+/* -----------studio----------- */
+.page-header {
+   border-bottom: 1px solid #ECECEC
+}
+
+.page-header-comtent {
+   display: flex;
+}
+
+.logo {
+   color: var(--logo-color);
+   font-family: Raleway, sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
+}
+
+.logo span {
+   color: var(--title-text-color);
+}
+
+.logo-nav-content {
+   display: flex;
+   align-items: center;
+}
