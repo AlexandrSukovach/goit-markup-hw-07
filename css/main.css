@@ -962,7 +962,7 @@ button {
 
 /*---------- portfolio----------- */
 /*--- скрытый заголовок <h1>Портфолио</h1>--- */
-.visually-hidden {
+.portfolio__visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -973,7 +973,7 @@ button {
   overflow: hidden;
 }
 
-.portfolio-menu {
+.portfolio__menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -983,7 +983,7 @@ button {
   margin-bottom: 50px;
 }
 
-.portfolio-menu li:not(:last-child) {
+.portfolio__menu li:not(:last-child) {
   margin-right: 8px;
 }
 

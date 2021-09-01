@@ -1,6 +1,6 @@
 /*---------- portfolio----------- */
 /*--- скрытый заголовок <h1>Портфолио</h1>--- */
-.visually-hidden {
+.portfolio__visually-hidden {
    position: absolute;
    width: 1px;
    height: 1px;
@@ -11,12 +11,10 @@
    overflow: hidden;
 }
 
-.portfolio-menu {
+.portfolio__menu {
    display: flex;
    justify-content: center;
    margin-bottom: 50px;
+   & li:not(:last-child){margin-right: 8px;};
 }
 
-.portfolio-menu li:not(:last-child) {
-   margin-right: 8px;
-}
