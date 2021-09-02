@@ -1,10 +1,10 @@
 /*----- adaptive-------- */
-.card-overly {
+.portfolio__overly {
    position: relative;
    overflow: hidden;
 }
 
-.overly-card {
+.overly__card {
    width: 370px;
    background-color: rgba(33, 150, 243, 0.9);
    font-size: 18px;
@@ -21,6 +21,3 @@
 
 }
 
-.flex-elements a:hover .overly-card {
-   transform: translateY(-100%);
-}

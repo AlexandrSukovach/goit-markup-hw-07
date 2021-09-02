@@ -139,14 +139,10 @@ footer {
    border-radius: 4px;
    padding-left: 16px;
    cursor: pointer;
+   &:focus{outline: none;
+      border-color: rgba(255, 255, 255, 0.3);
+      color: var(--accent-footer-color);}
+   &::placeholder{color: var(--accent-footer-color);}
 }
 
-.footer__input:focus {
-   outline: none;
-   border-color: rgba(255, 255, 255, 0.3);
-   color: var(--accent-footer-color);
-}
 
-.footer__input::placeholder {
-   color: var(--accent-footer-color);
-}
