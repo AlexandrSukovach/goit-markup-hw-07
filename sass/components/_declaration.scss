@@ -3,11 +3,11 @@
    padding-bottom: 0px;
 }
 
-.declaration-list {
+.declaration__list {
    display: flex;
 }
 
-.declaration-item {
+.declaration__item {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -18,15 +18,13 @@
    margin-bottom: 30px;
 }
 
-.declaration-list li {
+.declaration__logo {
    width: 270px;
+   &:not(:last-child){margin-right: 30px;}
 }
 
-.declaration-list li:not(:last-child) {
-   margin-right: 30px;
-}
 
-.declaration-list h3 {
+.declaration__title {
    color: var(--title-text-color);
    font-size: 14px;
    font-weight: 700;
@@ -35,7 +33,7 @@
    margin-bottom: 10px;
 }
 
-.declaration-list p {
+.declaration__text {
    color: var(--primary-text-color);
    font-size: 14px;
    line-height: 1.71;

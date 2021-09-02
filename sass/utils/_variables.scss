@@ -43,7 +43,6 @@ body {
    letter-spacing: 0.03em;
 }
 
-/* outline: 2px solid tomato; */
 
 .container {
    margin-left: auto;
@@ -68,4 +67,10 @@ a {
 
 img {
    display: block;
+}
+button {
+   font-family: inherit;
+   cursor: pointer;
+   font-size: 16px;
+   border: 1px solid transparent;
 }
