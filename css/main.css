@@ -702,8 +702,8 @@ button {
   background-color: #00000033;
   top: 0;
   left: 0;
-  -webkit-transition: opacity 600ms cubic-bezier(0.4, 0, 0.2, 1), visibility 600ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: opacity 600ms cubic-bezier(0.4, 0, 0.2, 1), visibility 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1), visibility 400ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 400ms cubic-bezier(0.4, 0, 0.2, 1), visibility 400ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -713,8 +713,8 @@ button {
 }
 
 .backdrop.is-hidden .modal__wind {
-  -webkit-transform: translate(-50%, -50%) scale(1.05);
-          transform: translate(-50%, -50%) scale(1.05);
+  -webkit-transform: translate(-50%, -50%) scale(1.03);
+          transform: translate(-50%, -50%) scale(1.03);
 }
 
 .modal__wind {
@@ -736,10 +736,10 @@ button {
   top: 50%;
   -webkit-transform: translate(-50%, -50%) scale(1);
           transform: translate(-50%, -50%) scale(1);
-  -webkit-transition: -webkit-transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: -webkit-transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  -webkit-transition: -webkit-transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-wind__close {
@@ -1015,6 +1015,12 @@ button {
   overflow: hidden;
 }
 
+.agreement__icon {
+  position: absolute;
+  left: -1px;
+  top: 3px;
+}
+
 .agreement__checkbox:checked ~ .agreement__icon {
   position: absolute;
   width: 1px;
@@ -1027,8 +1033,8 @@ button {
 }
 
 .agreement__checkbox:checked ~ .agreement__check {
-  left: 1px;
-  top: 3px;
+  left: 0px;
+  top: 4px;
   width: auto;
   height: auto;
   clip: auto;
@@ -1042,12 +1048,6 @@ button {
 .agreement {
   position: relative;
   padding-left: 23px;
-}
-
-.agreement__icon {
-  position: absolute;
-  left: 0;
-  top: 2px;
 }
 
 /* ---------------footer------------ */
