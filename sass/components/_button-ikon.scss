@@ -1,0 +1,21 @@
+
+.button__standart{
+   background-color: var(--logo-background-color);
+   color: var(--accent-color);
+   font-weight: 700;
+   border-radius: 4px;
+   line-height: 1.87;
+   letter-spacing: 0.06em;
+   height: 50px;
+   min-width: 200px;
+}
+
+.icon__social{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 44px;
+   height: 44px;
+   border-radius: 50%;
+   cursor: pointer;
+}
