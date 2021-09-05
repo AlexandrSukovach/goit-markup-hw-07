@@ -5,7 +5,7 @@
         "../sass/main.scss",
         "../sass/utils/_variables.scss",
         "../sass/base/_base-body.scss",
-        "../sass/components/_button-ikon.scss",
+        "../sass/sharing/_button-ikon.scss",
         "../sass/components/_studio.scss",
         "../sass/components/_sitenav.scss",
         "../sass/components/_hero.scss",
