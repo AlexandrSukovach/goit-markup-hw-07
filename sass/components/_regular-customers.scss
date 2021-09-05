@@ -7,7 +7,7 @@
    margin-bottom: 50px;
 }
 .reg-custom__title {
-   color: var(--title-text-color);
+   color: $titleTextColor;
    font-size: 36px;
    font-weight: 700;
    line-height: 1.17;
@@ -34,8 +34,8 @@
    cursor: pointer;
    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
    &:hover,
-   &:focus{ border: 1px solid var(--logo-background-click);
-      color: var(--logo-background-click);}
+   &:focus{ border: 1px solid $logoBackgroundClick;
+      color: $logoBackgroundClick;}
 }
 
 .client {

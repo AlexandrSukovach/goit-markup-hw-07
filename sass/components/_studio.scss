@@ -9,7 +9,7 @@
 }
 
 .logo {
-   color: var(--logo-color);
+   color: $logoColor;
    font-family: Raleway, sans-serif;
    font-weight: 700;
    font-size: 26px;
@@ -18,7 +18,7 @@
 }
 
 .logo__text {
-   color: var(--title-text-color);
+   color: $titleTextColor;
 }
 
 .page-header__nav {

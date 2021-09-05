@@ -13,7 +13,7 @@
    align-items: center;
    width: 270px;
    height: 120px;
-   background-color: var(--button-back-color);
+   background-color: $buttonBackColor;
    border-radius: 4px;
    margin-bottom: 30px;
 }
@@ -25,7 +25,7 @@
 
 
 .declaration__title {
-   color: var(--title-text-color);
+   color: $titleTextColor;
    font-size: 14px;
    font-weight: 700;
    line-height: 1.14;
@@ -34,7 +34,7 @@
 }
 
 .declaration__text {
-   color: var(--primary-text-color);
+   color: $primaryTextColor;
    font-size: 14px;
    line-height: 1.71;
 }

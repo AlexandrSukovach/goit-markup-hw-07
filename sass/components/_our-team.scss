@@ -1,10 +1,10 @@
 /*------------our team-------------- */
 .our-team {
-   background-color: var(--button-back-color);
+   background-color: $buttonBackColor;
 }
 
 .our-team__title {
-   color: var(--title-text-color);
+   color: $titleTextColor;
    font-size: 36px;
    font-weight: 700;
    line-height: 1.17;
@@ -17,7 +17,7 @@
 }
 
 .our-team__card {
-   background-color: var(--body-background-color);
+   background-color: $bodyBackgroundColor;
    text-align: center;
    width: 270px;
    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -32,7 +32,7 @@
 }
 
 .our-team__lable {
-   color: var(--title-text-color);
+   color: $titleTextColor;
    font-size: 16px;
    font-weight: 500;
    line-height: 1.17;
@@ -58,8 +58,8 @@
    color: #AFB1B8;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    &:hover,
-   &:focus{background-color: var(--logo-background-color);
-      color: var(--body-background-color);}
+   &:focus{background-color: $logoBackgroundColor;
+      color: $bodyBackgroundColor;}
 }
 
 .media {

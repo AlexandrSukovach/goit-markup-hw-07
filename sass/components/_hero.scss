@@ -5,7 +5,7 @@
    margin-right: auto;
    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url("../images/hero-one.jpg");
-   background-color: var(--section-background);
+   background-color: $sectionBackground;
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
@@ -16,7 +16,7 @@
 }
 
 .hero__title {
-   color: var(--accent-color);
+   color: $accentColor;
    font-weight: 900;
    font-size: 44px;
    line-height: 1.36;
@@ -30,5 +30,5 @@
    padding-right: 31px;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    &:hover,
-   &:focus{background-color: var(--logo-background-click);}
+   &:focus{background-color: $logoBackgroundClick;}
 }

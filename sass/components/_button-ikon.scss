@@ -1,7 +1,7 @@
 
 .button__standart{
-   background-color: var(--logo-background-color);
-   color: var(--accent-color);
+   background-color: $logoBackgroundColor;
+   color: $accentColor;
    font-weight: 700;
    border-radius: 4px;
    line-height: 1.87;

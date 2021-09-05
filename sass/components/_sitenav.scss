@@ -15,13 +15,13 @@
 
 
 .site__click.site__current {
-   color: var(--logo-color);
+   color: $logoColor;
    &::after{display: block;
       content: '';
       width: 100%;
       height: 4px;
-      background-color: var(--logo-color);
-      border: 1px solid var(--logo-color);
+      background-color: $logoColor;
+      border: 1px solid $logoColor;
       border-radius: 2px;
       position: absolute;
       left: 0;
@@ -34,14 +34,14 @@
 }
 
 .site__click {
-   color: var(--title-text-color);
+   color: $titleTextColor;
    font-weight: 500;
    font-size: 14px;
    line-height: 1.17;
    letter-spacing: 0.02em;
    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    &:hover,
-   &:focus{color: var(--logo-color);}
+   &:focus{color: $logoColor;}
 }
 
 .page-header__auth {
@@ -66,11 +66,11 @@
 }
 
 .auth__click {
-   color: var(--primary-text-color);
+   color: $primaryTextColor;
    font-weight: 500;
    font-size: 14px;
    line-height: 1.17;
    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    &:hover,
-   &:focus{color: var(--logo-color);}
+   &:focus{color: $logoColor;}
 }

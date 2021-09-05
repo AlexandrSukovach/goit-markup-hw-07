@@ -1,6 +1,6 @@
 /* ---------------footer------------ */
 footer {
-   background-color: var(--section-background);
+   background-color: $sectionBackground;
 }
 
 .footer__content {
@@ -12,13 +12,13 @@ footer {
 }
 
 .footer__logo {
-   color: var(--logo-color);
+   color: $logoColor;
    font-family: Raleway, sans-serif;
    font-size: 26px;
    font-weight: 700;
    line-height: 1.19;
    letter-spacing: 0.03em;
-   & span{color: var(--accent-color);}
+   & span{color: $accentColor;}
 }
 
 .footer__address {
@@ -26,7 +26,7 @@ footer {
 }
 
 .footer__location {
-   color: var(--accent-color);
+   color: $accentColor;
    font-size: 14px;
    font-style: normal;
    line-height: 1.71;
@@ -34,10 +34,10 @@ footer {
 }
 
 .footer__map {
-   color: var(--accent-color);
+   color: $accentColor;
    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    &:hover,
-   &:focus{color: var(--logo-color);}
+   &:focus{color: $logoColor;}
 }
 
 .footer__contact:not(:last-child) {
@@ -45,10 +45,10 @@ footer {
 }
 
 .footer__click {
-   color: var(--accent-footer-color);
+   color: $accentFooterColor;
    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    &:hover,
-   &:focus{color: var(--logo-color);}
+   &:focus{color: $logoColor;}
 }
 
 .footer__title {
@@ -57,7 +57,7 @@ footer {
    line-height: 1.14;
    letter-spacing: 0.03em;
    text-transform: uppercase;
-   color: var(--accent-color);
+   color: $accentColor;
    margin-bottom: 20px;
 }
 
@@ -68,10 +68,10 @@ footer {
 
 .icon__social--gray {
    background-color: #FFFFFF1A;
-   color: var(--accent-color);
+   color: $accentColor;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    &:hover,
-   &:focus{ background-color: var(--logo-background-color);}
+   &:focus{ background-color: $logoBackgroundColor;}
 }
 
 .footer__icon:not(:last-child) {
@@ -88,7 +88,7 @@ footer {
 
 .footer__mailing {
    display: block;
-   color: var(--accent-color);
+   color: $accentColor;
    font-weight: 700;
    font-size: 14px;
    line-height: 1.14;
@@ -117,8 +117,8 @@ footer {
 .footer__input {
    width: 358px;
    height: 50px;
-   background-color: var(--section-background);
-   color: var(--accent-color);
+   background-color: $sectionBackground;
+   color: $accentColor;
    letter-spacing: 0.03em;
    border: 1px solid rgba(255, 255, 255, 0.3);
    border-radius: 4px;
@@ -126,8 +126,8 @@ footer {
    cursor: pointer;
    &:focus{outline: none;
       border-color: rgba(255, 255, 255, 0.3);
-      color: var(--accent-footer-color);}
-   &::placeholder{color: var(--accent-footer-color);}
+      color: $accentFooterColor;}
+   &::placeholder{color: $accentFooterColor;}
 }
 
 

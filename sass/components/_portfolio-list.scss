@@ -10,7 +10,7 @@
 }
 
 .portfolio__title {
-   color: var(--title-text-color);
+   color: $titleTextColor;
    font-size: 18px;
    font-weight: 700;
    line-height: 2;
@@ -19,7 +19,7 @@
 }
 
 .portfolio__desc {
-   color: var(--primary-text-color);
+   color: $primaryTextColor;
    font-size: 16px;
    line-height: 1.87;
 }

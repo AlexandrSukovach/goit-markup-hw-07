@@ -1,23 +1,34 @@
-:root {
-   --primary-text-color: #757575;
-   --title-text-color: #212121;
-   --accent-color: #FFFFFF;
-   --logo-color: #2196F3;
-   --body-background-color: #FFFFFF;
-   --logo-background-color: #2196F3;
-   --section-background: #2F303A;
-   --button-back-color: #F5F4FA;
-   --accent-footer-color: #FFFFFF99;
-   --logo-background-click: #188CE8;
-}
 
-/* -------переменные----------- */
-/* основной цвет color: #757575; */
-/* вторичный цвет color: #212121; */
-/* цвет прозрачный color: rgba(255, 255, 255, 0.6); */
-/* белый цвет color: #FFFFFF; */
-/* цвет лого color: #2196F3; */
-/* черный цвет  color: #000000;*/
+// переменные цвета
+
+$primaryTextColor:#757575;
+$titleTextColor:#212121;
+$accentColor: #FFFFFF;
+$logoColor: #2196F3;
+$bodyBackgroundColor: #FFFFFF;
+$logoBackgroundColor: #2196F3;
+$sectionBackground: #2F303A;
+$buttonBackColor: #F5F4FA;
+$accentFooterColor: #FFFFFF99;
+$logoBackgroundClick: #188CE8;
+
+
+// :root {
+//    --primary-text-color: #757575;
+//    --title-text-color: #212121;
+//    --accent-color: #FFFFFF;
+//    --logo-color: #2196F3;
+//    --body-background-color: #FFFFFF;
+//    --logo-background-color: #2196F3;
+//    --section-background: #2F303A;
+//    --button-back-color: #F5F4FA;
+//    --accent-footer-color: #FFFFFF99;
+//    --logo-background-click: #188CE8;
+// }
+
+
+// переменные шрифтов
+
 
 /* Обнуление margin и padding*/
 h1,
