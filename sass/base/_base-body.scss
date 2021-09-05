@@ -5,7 +5,7 @@
 body {
    background-color: $bodyBackgroundColor;
    color: $primaryTextColor;
-   font-family: Roboto, sans-serif;
+   font-family: $fontFamilyRoboto;
    font-weight: 400;
    letter-spacing: 0.03em;
 }
