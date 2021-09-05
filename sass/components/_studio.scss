@@ -11,10 +11,10 @@
 .logo {
    color: $logoColor;
    font-family: $fontFamilyRaleway;
-   font-weight: 700;
-   font-size: 26px;
-   line-height: 1.19;
-   letter-spacing: 0.03em;
+   font-weight: $fontWeight700;
+   font-size: $fontSize26;
+   line-height: $lineHeight119;
+   letter-spacing: $letterSpacing03;
 }
 
 .logo__text {

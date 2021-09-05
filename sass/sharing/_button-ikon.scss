@@ -2,10 +2,10 @@
 .button__standart{
    background-color: $logoBackgroundColor;
    color: $accentColor;
-   font-weight: 700;
+   font-weight: $fontWeight700;
+   line-height: $lineHeight187;
+   letter-spacing: $letterSpacing06;
    border-radius: 4px;
-   line-height: 1.87;
-   letter-spacing: 0.06em;
    height: 50px;
    min-width: 200px;
 }

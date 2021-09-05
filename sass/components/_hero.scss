@@ -17,10 +17,10 @@
 
 .hero__title {
    color: $accentColor;
-   font-weight: 900;
-   font-size: 44px;
-   line-height: 1.36;
-   letter-spacing: 0.06em;
+   font-weight: $fontWeight900;
+   font-size: $fontSize44;
+   line-height: $lineHeight136;
+   letter-spacing: $letterSpacing06;
    text-transform: uppercase;
    margin-bottom: 30px;
 }

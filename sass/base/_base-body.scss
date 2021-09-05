@@ -6,8 +6,8 @@ body {
    background-color: $bodyBackgroundColor;
    color: $primaryTextColor;
    font-family: $fontFamilyRoboto;
-   font-weight: 400;
-   letter-spacing: 0.03em;
+   font-weight: $fontWeight400;
+   letter-spacing: $letterSpacing03;
 }
 
 
@@ -38,6 +38,6 @@ img {
 button {
    font-family: inherit;
    cursor: pointer;
-   font-size: 16px;
+   font-size: $fontSize16;
    border: 1px solid transparent;
 }

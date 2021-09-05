@@ -8,9 +8,7 @@
 }
 .reg-custom__title {
    color: $titleTextColor;
-   font-size: 36px;
-   font-weight: 700;
-   line-height: 1.17;
+   @extend %title-section;
    text-align: center;
 }
 .reg-custom__gallery {

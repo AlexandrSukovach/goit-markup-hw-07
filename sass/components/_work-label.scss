@@ -6,11 +6,8 @@
    padding-bottom: 27px;
    background-color: #2F303ACC;
    color: $accentColor;
-   font-weight: 700;
-   font-size: 14px;
-   line-height: 1.14;
+   @extend %std-modal;
    text-align: center;
-   letter-spacing: 0.03em;
    text-transform: uppercase;
    bottom: 0;
    position: absolute;

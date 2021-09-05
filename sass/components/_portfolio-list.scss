@@ -11,17 +11,17 @@
 
 .portfolio__title {
    color: $titleTextColor;
-   font-size: 18px;
-   font-weight: 700;
-   line-height: 2;
-   letter-spacing: 0.06em;
+   font-size: $fontSize18;
+   font-weight: $fontWeight700;
+   line-height: $lineHeight200;
+   letter-spacing: $letterSpacing06;
    margin-bottom: 4px;
 }
 
 .portfolio__desc {
    color: $primaryTextColor;
-   font-size: 16px;
-   line-height: 1.87;
+   font-size: $fontSize16;
+   line-height: $lineHeight187;
 }
 
 .portfolio__card {

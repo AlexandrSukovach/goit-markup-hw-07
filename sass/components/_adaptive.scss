@@ -7,9 +7,9 @@
 .overly__card {
    width: 370px;
    background-color: rgba(33, 150, 243, 0.9);
-   font-size: 18px;
-   line-height: 1.56;
-   letter-spacing: 0.03em;
+   font-size: $fontSize18;
+   line-height: $lineHeight156;
+   letter-spacing: $letterSpacing03;
    color: $accentColor;
    padding-left: 24px;
    padding-right: 24px;

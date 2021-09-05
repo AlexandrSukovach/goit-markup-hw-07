@@ -3,9 +3,7 @@
 .portfolio__button {
       color: $titleTextColor;
       background-color: $buttonBackColor;
-      font-weight: 500;
-      line-height: 1.62;
-      letter-spacing: 0.03em;
+      @extend %button-menu;
       text-align: center;
       border-radius: 4px;
       padding-left: 22px;

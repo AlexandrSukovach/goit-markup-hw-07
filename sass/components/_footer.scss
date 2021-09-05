@@ -14,10 +14,10 @@ footer {
 .footer__logo {
    color: $logoColor;
    font-family: $fontFamilyRaleway;
-   font-size: 26px;
-   font-weight: 700;
-   line-height: 1.19;
-   letter-spacing: 0.03em;
+   font-size: $fontSize26;
+   font-weight: $fontWeight700;
+   line-height: $lineHeight119;
+   letter-spacing: $letterSpacing03;
    & span{color: $accentColor;}
 }
 
@@ -27,9 +27,9 @@ footer {
 
 .footer__location {
    color: $accentColor;
-   font-size: 14px;
+   font-size: $fontSize14;
    font-style: normal;
-   line-height: 1.71;
+   line-height: $lineHeight171;
    margin-top: 20px;
 }
 
@@ -52,10 +52,7 @@ footer {
 }
 
 .footer__title {
-   font-weight: 700;
-   font-size: 14px;
-   line-height: 1.14;
-   letter-spacing: 0.03em;
+   @extend %std-modal;
    text-transform: uppercase;
    color: $accentColor;
    margin-bottom: 20px;
@@ -89,10 +86,7 @@ footer {
 .footer__mailing {
    display: block;
    color: $accentColor;
-   font-weight: 700;
-   font-size: 14px;
-   line-height: 1.14;
-   letter-spacing: 0.03em;
+   @extend %std-modal;
    text-transform: uppercase;
    margin-bottom: 20px;
    cursor: pointer;
@@ -119,7 +113,7 @@ footer {
    height: 50px;
    background-color: $sectionBackground;
    color: $accentColor;
-   letter-spacing: 0.03em;
+   letter-spacing: $letterSpacing03;
    border: 1px solid rgba(255, 255, 255, 0.3);
    border-radius: 4px;
    padding-left: 16px;
